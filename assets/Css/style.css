@@ -23,10 +23,36 @@ header .header-top .topHead-left a {
   padding-bottom: 12px;
   color: #231F20;
 }
+header .header-top .topHead-left .lang-btn {
+  position: relative;
+}
 header .header-top .topHead-left .lang-btn span i {
   margin-left: 1px;
   font-size: 10px;
   font-weight: 600;
+}
+header .header-top .topHead-left .lang-dropDown {
+  position: absolute;
+  top: 60px;
+  z-index: 10000;
+  display: none;
+  left: 100px;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  width: 40px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+header .header-top .topHead-left .lang-dropDown a {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
 }
 header .header-top .topHead-left .row-in-the-middle {
   color: #EDEDED;
@@ -63,4 +89,70 @@ header .header-top .topHead-right .location-btn .location-icon i {
 
 .active-btn {
   border-bottom: 2px solid #FAA61A;
+}
+
+.search-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.3s, opacity 0.3s;
+}
+
+.search-overlay.active {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.search-container {
+  position: fixed;
+  top: 23px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.search-input {
+  width: 637px;
+  padding: 5px 28px;
+  border-radius: 5px;
+  border: none;
+}
+
+.search-icon-wrapper {
+  position: absolute;
+  left: 5px;
+}
+.search-icon-wrapper i {
+  color: #FAA61A;
+}
+
+.search-submit {
+  color: #FFF;
+  width: 150px;
+  padding: 6px 0;
+  margin-left: 10px;
+  background-color: #FAA61A;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
