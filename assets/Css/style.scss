@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 1px solid #EDEDED;
+    padding: 10px;
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .topHead-left{
+            a{
+                text-decoration: none;
+                margin-left: 10px;
+                font-size: 13px;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 0.12em;
+                padding-bottom: 12px;
+                color: #231F20;
+            }
+            .lang-btn{
+                span{
+                  i{
+                    margin-left: 1px;
+                    font-size: 10px;
+                    font-weight: 600;
+                  }
+                }
+            }
+            .row-in-the-middle{
+                
+                color:#EDEDED;
+            }
+            .search-btn{
+                margin-left: 30px !important;
+                span{
+                    margin-right: 7px;
+                    i{
+                        font-size: 15px;
+                        color: #FAA61A;
+                    }
+                }
+            }
+        }
+        .topHead-right{
+            a{
+                text-decoration: none;
+                margin-right: 40px;
+                font-size: 13px;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 0.12em;
+                padding-bottom: 12px;
+                color: #231F20;
+                .span-image{
+                    img{
+                        width: 16px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            .location-btn{
+                .location-icon{
+                    i{
+                        margin-left: 1px;
+                        font-size: 10px;
+                        font-weight: 600;
+                      } 
+                }
+            }
+        }
+    }
+
+}
+
+.active-btn{
+    border-bottom:2px solid #FAA61A;
+}

@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: 1px solid #EDEDED;
+  padding: 10px;
+}
+header .header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-top .topHead-left a {
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  padding-bottom: 12px;
+  color: #231F20;
+}
+header .header-top .topHead-left .lang-btn span i {
+  margin-left: 1px;
+  font-size: 10px;
+  font-weight: 600;
+}
+header .header-top .topHead-left .row-in-the-middle {
+  color: #EDEDED;
+}
+header .header-top .topHead-left .search-btn {
+  margin-left: 30px !important;
+}
+header .header-top .topHead-left .search-btn span {
+  margin-right: 7px;
+}
+header .header-top .topHead-left .search-btn span i {
+  font-size: 15px;
+  color: #FAA61A;
+}
+header .header-top .topHead-right a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  padding-bottom: 12px;
+  color: #231F20;
+}
+header .header-top .topHead-right a .span-image img {
+  width: 16px;
+  margin-right: 5px;
+}
+header .header-top .topHead-right .location-btn .location-icon i {
+  margin-left: 1px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.active-btn {
+  border-bottom: 2px solid #FAA61A;
+}/*# sourceMappingURL=style.css.map */
