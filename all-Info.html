@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exspres-Bank</title>
+    <link rel="stylesheet" href="/assets/Css/bootstrap.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="/assets/Css/style.css">
+    <link rel="stylesheet" href="/assets/Css/kartlar.css">
+    <link rel="stylesheet" href="/assets/Css/all-info.css">
+    <link rel="stylesheet" href="/assets/Css/style.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header class="mt-3 mb-3">
+        <section class="container header-top">
+            <div class="topHead-left col-lg-5">
+                <a class="lang-btn" href="">AZ <span class="down-aTag"><i
+                            class="fa-solid fa-chevron-down"></i></span></a>
+                <div class="lang-dropDown">
+                    <a href="#" class="dropdown-item selected">AZ</a>
+                    <a href="#" class="dropdown-item ">EN</a>
+                    <a href="#" class="dropdown-item ">RU</a>
+                </div>
+                <a class="header-abtn active-btn" href="">Sizin Ucun</a>
+                <a href="">/</a>
+                <a class="" href="">Biznes Ucun</a>
+                <a class="row-in-the-middle" href="">|</a>
+                <a class="search-btn" href=""><span><i class="fa-solid fa-magnifying-glass"></i></span> Axtaris</a>
+                <div class="search-overlay">
+                    <div class="search-container">
+                        <div class="search-icon-wrapper">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input type="text" placeholder="Axtaris" class="search-input">
+                        <button class="search-submit">Axtar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="topHead-right col-lg-6">
+                <div class="dropdown">
+                    <a class="about-btn" href=""><span class="span-image"><img
+                                src="https://adminpanel.expressbank.az/images/menus/about.png"
+                                alt=""></span>Haqqimizda</a>
+                    <div class="dropdown-content">
+                        <div class="drop-downLine mt-3 mb-3">
+                            <div class="content-img">
+                                <img src="/assets/Images/expressbank_948_1624424301.svg" alt="">
+                            </div>
+                            <div class="content-txt">
+                                <a href="#">Umumi Melumat</a>
+                            </div>
+                        </div>
+                        <div class="drop-downLine mt-3 mb-3">
+                            <div class="content-img">
+                                <img src="/assets/Images/expressbank_948_1624424301.svg" alt="">
+                            </div>
+                            <div class="content-txt">
+                                <a href="#">Umumi Melumat</a>
+                            </div>
+                        </div>
+                        <div class="drop-downLine mt-3 mb-3">
+                            <div class="content-img">
+                                <img src="/assets/Images/expressbank_948_1624424301.svg" alt="">
+                            </div>
+                            <div class="content-txt">
+                                <a href="#">Umumi Melumat</a>
+                            </div>
+                        </div>
+                        <div class="drop-downLine mt-3 mb-3">
+                            <div class="content-img">
+                                <img src="/assets/Images/expressbank_948_1624424301.svg" alt="">
+                            </div>
+                            <div class="content-txt">
+                                <a href="#">Umumi Melumat</a>
+                            </div>
+                        </div>
+                        <div class="drop-downLine mt-3 mb-3">
+                            <div class="content-img">
+                                <img src="/assets/Images/expressbank_948_1624424301.svg" alt="">
+                            </div>
+                            <div class="content-txt">
+                                <a href="#">Umumi Melumat</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="exspress-btn" href=""><span class="span-image"><img
+                            src="/assets/Images/expressbank_148_1624424642.svg" alt=""></span> ExspressBank Online</a>
+                <a class="location-btn" href=""><span class="span-image"><img src="/assets/Images/marker.svg"
+                            alt=""></span>
+                    Unvanlarimiz <span class="location-icon"><i class="fa-solid fa-chevron-down"></i></span></a>
+                <a class="phone-btn" href=""><span class="span-image"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ/SURBVHgBrVVLctpAEO0egTDZhGWCXBXdIHCCmBuYJfbCcALgBMAJAifAWQBV2ZicAN8AbmAtApVdWAUjgTrdY4mPEgIRfgtGMy36zfTreQKIgB7sjDe4vIJXAu5O3N5lFdBvB9NJMm0WsOjM4Qyo8MEbZBuSnACGPmCdl3Lewh3TwLbhDGiCRc8qE0GTHydm2qxc3EzbgFjhue2RO5KyQUxoAoXU4MHZLYlZmt5vSBbuCGJCUdfOsBC2D9SJ1ltIfD8oV0zhNxog4V/LoAz6KOMKVg7EIcAK75pgjgo+RIPuINvlmOjTSpd+OBADwQnwCye63hXT61ufw+Sp21kTYkIToMIhD5nlYlnehsjmn7n5xmzDGdAEydL3R+6YRwVY3URQdYTU/eXW4AxsRQZs8WA/99/XQlK5dIjQcL9aOYiJfasYWCMgyiXRzGPJcaSF3ZQ7lpd4rSBr8J9Qu5M1rCssLHjgdTU7d5iPfoHXMvpG/8M2DsX2CKQVfeRSEV1pbwrWmOogyYLny372iWNPbj87jtqKijJqHyLsiDeFJObtdLJWfp4PB5xoHOokyRWTSgnR0F4mBrnnXQgHwLt64OA1i9xMlmatl4TvbAOMrpyQpw4FCdZcRjkpa1jmmJR3Y/UHCURgL6VNLrdL8kJklQ0i3dKcvLh7y/8ggSNwexZbN1WlZU0066d0UkjCBlpXx17m+tfELqRcIvKqb90d+w/4+FaGhKF+Hj1BCKm/IiWC2jydIKq6doAIZAO883t5x7yZ5U8m2BJZZUXUCIgcdoAh28y3YOufwi/jUZFPITIA7oKO2oI9LXmRLIYfr9gEIaTnV88r7VUJSDjRJvgN7PxEVV51et0AAAAASUVORK5CYII="
+                            alt=""></span>132</a>
+            </div>
+        </section>
+        <section class="container  header-bottom d-flex justify-content-between align-items-center">
+            <div class="bottom-left  d-flex justify-content-between align-items-center col-lg-7">
+                <div class="logo">
+                    <img src="/assets/Images/logo.e9fd180b.svg" alt="">
+                </div>
+                <div class="header-txt mt-3">
+                    <a href="">Kreditler</a>
+                    <a href="">Kartlar</a>
+                    <a href="">Emanetler</a>
+                    <a href="">Kozurmeler</a>
+                    <a href="">Diger Xidmetler</a>
+                </div>
+            </div>
+            <div class="bottom-right col-lg-4 d-flex justify-content-between align-items-center">
+                <div class="mobile-exs  mt-3">
+                    <a href="">
+                        <img src="https://www.expressbank.az/assets/img/e_logo.c9c383c9.svg" alt="">
+                        Express24 mobil tətbiqi
+                    </a>
+                    <ul>
+                        <span>
+                            <i class="fa-solid fa-chevron-up"></i>
+                        </span>
+                        <li>
+                            <div>
+                                <div class="mobile-exs-txt">
+                                    <h3>Express24 mobil tətbiqi</h3>
+                                    <p>Express24 ilə 7/24 bank əməliyyatlarını bir toxunuşla həyata keçirin!
+                                    </p>
+                                    <div>
+                                        <p>Telefonunuzun kamerası ilə QR kodu oxudun</p>
+                                        <img src="https://www.expressbank.az/img/hand_qr.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="mobile-exs-qr">
+                                    <img src="https://adminpanel.expressbank.az//images/expressbank_312_1647344115.svg"
+                                        alt="">
+                                </div>
+                                <div class="line"></div>
+                                <div class="express-app">
+                                    <p>Və ya linkdən yükləyin</p>
+                                    <div class="row-qr">
+                                        <div class="col-qr">
+                                            <a href="">
+                                                <img src="https://www.expressbank.az/assets/img/apple.3ac2369f.svg"
+                                                    alt="">
+                                                App Store
+                                            </a>
+                                        </div>
+                                        <div class="col-qr">
+                                            <a href="">
+                                                <img src="https://www.expressbank.az/assets/img/google_play.f884c8b3.svg"
+                                                    alt="">
+                                                Google Play
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="exs-btn">
+                    <button> Onlayn Novbe</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="cart-info"
+            style="background-image: url('/assets/Images/24bg.png'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+            <div class="container">
+                <div class="info-root mb-3">
+                    <a href="">Haqqimizda</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="">Umimi melumat</a>
+                </div>
+                <div class="info-head mb-1">
+                    <h3>Umumi Melumat</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="card-details">
+            <div class="container">
+                <div class="cart-info ">
+                    <div class="card-info">
+                        <div class="row">
+                            <div class="col-xxl-12 cart-info-content">
+                                <div class="card-alltxt">
+                                    <div class="info-img">
+                                        <img src="/assets/Images/melumat.svg"
+                                            alt="">
+                                        <h4>Bizi tanıyın</h4>
+                                    </div>
+                                    <div class="info-btn d-flex justify-content-end align-items-center">
+                                        <button>Etrafli</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-12 cart-info-content">
+                                <div class="card-alltxt">
+                                    <div class="info-img">
+                                        <img src="/assets/Images/melumat.svg"
+                                            alt="">
+                                        <h4>Bizi tanıyın</h4>
+                                    </div>
+                                    <div class="info-btn d-flex justify-content-end align-items-center">
+                                        <button>Etrafli</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-12 cart-info-content">
+                                <div class="card-alltxt">
+                                    <div class="info-img">
+                                        <img src="/assets/Images/melumat.svg"
+                                            alt="">
+                                        <h4>Bizi tanıyın</h4>
+                                    </div>
+                                    <div class="info-btn d-flex justify-content-end align-items-center">
+                                        <button>Etrafli</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-12 cart-info-content">
+                                <div class="card-alltxt">
+                                    <div class="info-img">
+                                        <img src="/assets/Images/melumat.svg"
+                                            alt="">
+                                        <h4>Bizi tanıyın</h4>
+                                    </div>
+                                    <div class="info-btn d-flex justify-content-end align-items-center">
+                                        <button>Etrafli</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="foot-adress">
+                <div class="footer-tel">
+                    <img src="https://www.expressbank.az/assets/img/phone.55f6301e.svg" alt="">
+                    <span>132</span>
+                </div>
+                <div class="footer-location">
+                    <img src="https://www.expressbank.az/assets/img/marker.76914edf.svg" alt="">
+                    Bakı, Azərbaycan, AZ1052, Atatürk pr., Yusif Vəzir Çəmənzəminli küç., 134 C
+                </div>
+                <div class="footer-social-web">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/Expressbank">
+                                <img src="https://adminpanel.expressbank.az//images/social_icons/facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/expressbank/">
+                                <img src="https://adminpanel.expressbank.az//images/social_icons/instagram.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/company/expressbankasc">
+                                <img src="https://adminpanel.expressbank.az//images/social_icons/linkedin.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.youtube.com/expressbankasc">
+                                <img src="https://adminpanel.expressbank.az//images/social_icons/youtube.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="foot-line"></div>
+        <div class="container">
+            <div class="footer-nav">
+                <div>
+                    <h4>SİZİN ÜÇÜN</h4>
+                    <ul>
+                        <li>
+                            <a href="credit.html">Kreditlər</a>
+                        </li>
+                        <li>
+                            <a href="kartlar.html">Kartlar</a>
+                        </li>
+                        <li>
+                            <a href="">Əmanətlər</a>
+                        </li>
+                        <li>
+                            <a href="">Köçürmələr</a>
+                        </li>
+                        <li>
+                            <a href="">Digər xidmətlər</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>SİZİN ÜÇÜN</h4>
+                    <ul>
+                        <li>
+                            <a href="credit.html">Kreditlər</a>
+                        </li>
+                        <li>
+                            <a href="kartlar.html">Kartlar</a>
+                        </li>
+                        <li>
+                            <a href="">Əmanətlər</a>
+                        </li>
+                        <li>
+                            <a href="">Köçürmələr</a>
+                        </li>
+                        <li>
+                            <a href="">Digər xidmətlər</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>SİZİN ÜÇÜN</h4>
+                    <ul>
+                        <li>
+                            <a href="credit.html">Kreditlər</a>
+                        </li>
+                        <li>
+                            <a href="kartlar.html">Kartlar</a>
+                        </li>
+                        <li>
+                            <a href="">Əmanətlər</a>
+                        </li>
+                        <li>
+                            <a href="">Köçürmələr</a>
+                        </li>
+                        <li>
+                            <a href="">Digər xidmətlər</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>SİZİN ÜÇÜN</h4>
+                    <ul>
+                        <li>
+                            <a href="credit.html">Kreditlər</a>
+                        </li>
+                        <li>
+                            <a href="kartlar.html">Kartlar</a>
+                        </li>
+                        <li>
+                            <a href="">Əmanətlər</a>
+                        </li>
+                        <li>
+                            <a href="">Köçürmələr</a>
+                        </li>
+                        <li>
+                            <a href="">Digər xidmətlər</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="foot-line"></div>
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="footer-imgs">
+                    <ul>
+                        <li class="footer-img-1">
+                            <a target="_blank" href="https://www.azericard.com/">
+                                <img src="https://adminpanel.expressbank.az//images/social_icons/expressbank_social_1622704210.png"
+                                    alt="">
+                            </a>
+                        </li>
+                        <li class="footer-img-2">
+                            <a target="_blank" href="https://www.e-gov.az/">
+                                <img src="https://adminpanel.expressbank.az//images/social_icons/expressbank_social_1622704453.png"
+                                    alt="">
+                            </a>
+                        </li>
+                        <li class="footer-img-3">
+                            <a target="_blank" href="https://taxfree4u.eu/ru/">
+                                <img src="https://adminpanel.expressbank.az//images/social_icons/expressbank_social_1622704582.png"
+                                    alt="">
+                            </a>
+                        </li>
+                        <li class="footer-img-4">
+                            <a target="_blank" href="https://bizimpullar.az/">
+                                <img src="https://adminpanel.expressbank.az//images/social_icons/expressbank_social_1647342483.png"
+                                    alt="">
+                            </a>
+                        </li>
+                        <li class="footer-img-5">
+                            <a target="_blank" href="https://www.adif.az/">
+                                <img src="https://adminpanel.expressbank.az//images/social_icons/expressbank_social_1647342681.png"
+                                    alt="">
+                            </a>
+                        </li>
+                        <li class="footer-img-6">
+                            <a target="_blank" href="https://infobank.az/">
+                                <img src="https://adminpanel.expressbank.az//images/social_icons/expressbank_social_1647343029.png"
+                                    alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <span>
+                        © Expressbank ASC 2021
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/assets/Js/app.js"></script>
+</body>
+
+</html>

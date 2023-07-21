@@ -1,0 +1,74 @@
+main {
+    #cart-info {
+        .info-root {
+
+            a,
+            i {
+                display: inline-block;
+                margin-left: 16px;
+                font-size: 15px;
+                line-height: 18px;
+                letter-spacing: 0.03em;
+                color: white;
+            }
+
+            i {
+                font-size: 10px !important;
+            }
+        }
+    }
+
+    #card-details {
+        .card-info {
+            .cart-info-content {
+                background-color: white;
+                border-radius: 8px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+
+                .card-alltxt {
+                    padding: 55px 40px;
+                    position: relative;
+
+                    .info-img {
+                        position: absolute;
+                        display: flex;
+                        justify-content: space-between;
+
+                        img {
+                            position: absolute;
+                            top: -37px;
+                        }
+
+                        h4 {
+                            padding: 0px 128px;
+                            margin-left: 63px;
+                            font-weight: 600;
+                            font-size: 22px;
+                            line-height: 120%;
+                            letter-spacing: 0.06em;
+                            color: #231F20;
+                        }
+                    }
+                    .info-btn{
+                  
+                      button{
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 16px;
+                        letter-spacing: 0.10em;
+                        text-transform: uppercase;
+                        color: #231F20;
+                        margin-right: 40px;
+                        background-color: #F9C20A;
+                        border: none;
+                        padding: 15px 15px;
+                        border-radius: 8px;
+                      }
+                    }
+                }
+            }
+
+        }
+    }
+}
