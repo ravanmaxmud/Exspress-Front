@@ -1,3 +1,9 @@
+$('.slider-row').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1
+});
+
 let langBtn = document.getElementsByClassName("lang-btn");
 
 for (let i = 0; i < langBtn.length; i++) {
@@ -34,6 +40,18 @@ searchOverlay.addEventListener('click', function(event) {
 
 searchSubmit.addEventListener('click', function(event) {
   event.preventDefault();
-  // Arama işlemlerini burada gerçekleştirin
   searchOverlay.classList.remove('active');
 });
+
+
+let mobileExsDiv = document.querySelector('.mobile-exs')
+let mobileExsDropDown = document.querySelector('.mobile-exs ul')
+
+mobileExsDiv.onmouseover = () => {
+  mobileExsDropDown.style.opacity = 1
+  mobileExsDropDown.style.transform = 'scaleY(1)';
+}
+mobileExsDiv.onmouseleave = () => {
+  mobileExsDropDown.style.opacity = 0
+  mobileExsDropDown.style.transform = 'scaleY(0)';
+}
