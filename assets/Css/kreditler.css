@@ -1,0 +1,274 @@
+.section-kredit {
+  background-image: url(../Images/sectionaxir/24bg.png);
+  background-size: cover;
+}
+.section-kredit .head-text h3 {
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+.section-kredit .head-text p {
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.06em;
+  color: #fff;
+  margin-bottom: 0px;
+  max-width: 650px;
+  margin-top: 10px;
+}
+
+.credit-card {
+  background-color: #f5f5f5;
+}
+.credit-card .card-head {
+  padding-top: 25px;
+}
+.credit-card .card-head .card-buttons {
+  border-bottom: 1px solid #D7D8D6;
+}
+.credit-card .card-head .card-buttons button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 0px;
+  transition: 0.3s;
+  color: #5F6369;
+  margin-right: 48px;
+  letter-spacing: 0.06em;
+  font-size: 18px;
+}
+.credit-card .card-head .card-buttons .active {
+  position: relative;
+}
+.credit-card .card-head .card-buttons .active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt {
+  padding: 3px 25px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo {
+  position: absolute;
+  width: 30%;
+  top: -30px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo img {
+  width: 90%;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo1 {
+  position: absolute;
+  width: 30%;
+  top: -29px;
+  left: 90px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo1 img {
+  width: 68%;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo2 {
+  position: absolute;
+  width: 30%;
+  top: -30px;
+  left: 10px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo2 img {
+  width: 91%;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo3 {
+  position: absolute;
+  width: 30%;
+  top: -30px;
+  left: 50px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo3 img {
+  width: 78%;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo4 {
+  position: absolute;
+  width: 20%;
+  top: -25px;
+  left: 70px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo4 img {
+  width: 100%;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text {
+  margin-left: 420px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text h4 {
+  font-style: normal;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.06em;
+  color: #231F20;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #5F6369;
+  margin-bottom: 22px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul {
+  display: flex;
+  position: relative;
+  margin-left: -28px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul li {
+  padding: 0px 40px 0px 0px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul li h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 10px;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  color: #231F20;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul li p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.06em;
+  color: #5F6369;
+  margin-bottom: 24px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul .short-line {
+  padding: 0px 20px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul .short-line::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  height: 44px;
+  width: 1px;
+  background-color: #a4a4a4;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text ul {
+  display: flex;
+  margin-left: -30px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text ul .card-a2, .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text ul .card-a3 {
+  margin-right: 16px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text ul .card-a2 a, .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text ul .card-a3 a {
+  color: #5F6369;
+  background-color: #FFF;
+  border: 1px solid #D7D8D6;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #231F20;
+  padding: 16px 24px;
+  border-radius: 8px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text ul .card-a1 {
+  margin-right: 16px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text ul .card-a1 a {
+  font-weight: normal;
+  font-size: 14px;
+  padding: 16px 24px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #231F20;
+  transition: background 0.2s;
+  background-color: #F9C20A;
+  border-radius: 10px;
+}
+.credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text ul .card-a1 a:hover {
+  background-color: #F58220;
+}
+
+.credit-client-feedback {
+  padding: 70px 0px 70px;
+  text-align: center;
+}
+.credit-client-feedback .foot-text form {
+  padding: 20px 0px;
+  width: 22%;
+  display: inline-block;
+}
+.credit-client-feedback .foot-text form h3 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-bottom: 18px;
+}
+.credit-client-feedback .foot-text form .div-one {
+  max-width: 530px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #5F6369;
+  margin-bottom: 32px;
+}
+.credit-client-feedback .foot-text form .div-two {
+  padding: 2px 0;
+  margin-bottom: 10px;
+}
+.credit-client-feedback .foot-text form .div-two input {
+  background: #FFFFFF;
+  border: 1px solid #D7D8D6;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  height: 75px;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 0px 24px;
+}
+.credit-client-feedback .foot-text form button {
+  width: 100%;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: background 0.2s;
+  background: #F9C20A;
+  border: 0;
+  color: #231F20;
+}
+.credit-client-feedback .foot-text form button:hover {
+  background: #F58220;
+}/*# sourceMappingURL=kreditler.css.map */
