@@ -1,0 +1,25 @@
+main #cart-info {
+  padding: 38px;
+}
+main #cart-info .info-head h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.06em;
+  color: white;
+  margin: 0px 0 0px 0;
+  max-width: 720px;
+  margin-bottom: 0 !important;
+}
+main #cart-info .info-content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.06em;
+  color: white;
+  margin-bottom: 0px;
+  max-width: 650px;
+  margin-top: 10px;
+}/*# sourceMappingURL=kartlar.css.map */
