@@ -55,3 +55,30 @@ mobileExsDiv.onmouseleave = () => {
   mobileExsDropDown.style.opacity = 0
   mobileExsDropDown.style.transform = 'scaleY(0)';
 }
+
+function calculate() {
+  // Get Input value
+  let a = parseFloat(document.getElementById('range1').value)
+  let b = parseFloat(document.getElementById('range2').value)
+  let c = parseFloat(document.getElementById('range3').value)
+
+  //Cacl Area
+  num=(a*c)/100
+  num1=a+num;
+  num3=(num1/b).toFixed(2)
+  document.querySelector('.bank-calc-response .bank-response-months').innerHTML = num3;
+  document.querySelector('.bank-calc-response .bank-response-alls').innerHTML = num1;
+}
+//Update
+function update1() {
+  document.querySelector('.inp1 .value1').innerHTML = document.getElementById('range1').value;
+  calculate();
+}
+
+function update2() {
+  document.querySelector('.inp2 .value2').innerHTML = document.getElementById("range2").value;
+  calculate();
+}
+
+document.querySelector('.inp1').addEventListener("input", update1);
+document.querySelector('.inp2').addEventListener("input", update2); 

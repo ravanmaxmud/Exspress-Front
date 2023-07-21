@@ -571,6 +571,241 @@ main {
         }
     }
 
+    #calculator{
+        user-select: none;
+        .calc-button-area{
+            .calc-button{
+                display: flex;
+                overflow: hidden;
+                width: 100%;
+                border-bottom: 1px solid #D7D8D6;
+                padding-top: 28px;
+                button{
+                    position: relative;
+                    background-color: inherit;
+                    float: left;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    padding: 14px 0px;
+                    transition: 0.3s;
+                    color: #5F6369;
+                    margin-right: 48px;
+                    letter-spacing: 0.06em;
+                    font-size: 18px;
+                }
+                .calc-buttons::before{
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    background-color: black;
+                    bottom: 0px;
+                    z-index: 999;
+                }
+            }
+        }
+        .bank-input-area{
+            margin: 50px 0px 20px;
+            background-color: #fff ;
+            .bank-calc{
+                margin-top: 100px;
+                position: relative;
+                border: 1px solid #ededed;
+                display: flex;
+                background-color: #fff;
+                border-radius: 15px;
+                box-shadow: 0 0 20px 8px #ededed;
+                .all-inp{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 0px;
+                    margin: 40px;
+                    h5{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 22px;
+                        letter-spacing: 0.06em;
+                        color: #231F20;
+                        margin-bottom: 45px;
+                        margin-left: 20px;
+                    }
+                    .inp{
+                        margin: 10px ;
+                        position: relative;
+                       
+                         .inptext{
+                            width: 150%;
+                            border-radius: 15px;
+                            border: 1px solid #ededed;
+                            padding: 25px 30px;
+                         }
+                         .linex{
+                            position: absolute;
+                            width: 87%;
+                            left: 10px;
+                            bottom: 0px;
+                            height: 2px;
+                            background-color: #FAA61A;
+                         }
+                         .select{
+                            width: 8%;
+                            border: none;
+                            position: absolute;
+                            top: 35px;
+                            right: -120px;
+                         }
+                         .range{
+                            position: absolute;
+                            top: 73px;
+                            left: 9px;
+                            -webkit-appearance: none;
+                            outline: none;
+                            width: 140%;
+                            height: 4px;
+                            border-radius: 5px;
+                            border: none;
+                            background-size: 10%;
+                            background-color: #e2e2e2;
+                            &::-webkit-slider-thumb{
+                                -webkit-appearance: none;
+                                width: 20px;
+                                height: 20px;
+                                border-radius: 50%;
+                                background-color: #fff;
+                                border: 1px solid #ededed;
+                                cursor: pointer;
+                            }
+                         }
+                         div{
+                            position: absolute;
+                            top: 10px;
+                            left: 35px;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: 0.03em;
+                            color: #5F6369;
+                         }
+                         .value, .value1, .value2{
+                            position: absolute;
+                            top: 35px;
+                            left: 35px;
+                            font-size: 20px;
+                        }
+                         .manat{
+                            position: absolute;
+                            top: 30px;
+                            right: -110px;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                top: 22px;
+                                left: 0px;
+                                width: 100%;
+                                height: 1px;
+                                background-color: #F58220;
+                            }
+                         }
+                    }
+                }
+                .bank-line{
+                    margin: 45px 250px;
+                    width: 0.1%;
+                    height: 100;
+                    background-color: #ededed;
+                }
+                .bank-calc-response{
+                    margin-top: 45px;
+                    display: flex;
+                    flex-direction: column;
+                    width: 40%;
+                    margin-left: -200px;
+                    .bank-response-head{
+                        h5{
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 22px;
+                            line-height: 22px;
+                            letter-spacing: 0.06em;
+                            color: #231F20;
+                            margin-bottom: 45px;
+                        }
+                    }
+                    .bank-response-value{
+                        display: flex;
+                        margin-top: 50px;
+                        justify-content: space-between;
+                        padding: 0px 150px 0px 0px;
+                        span{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 16px;
+                            line-height: 120%;
+                            letter-spacing: 0.06em;
+                            color: #5F6369;
+                            display: block;
+                        }
+                    }
+                    .bank-response-button{
+                        margin-top: 50px;
+                        width: 100%;
+                        a{
+                            text-align: center;
+                            padding: 15px 0px;
+                            display: inline-block;
+                            width: 120%;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 16px;
+                            letter-spacing: 0.12em;
+                            text-transform: uppercase;
+                            color: #231F20;
+                            background: #F9C20A;
+                            margin: 0;
+                            border-radius: 10px;
+                            transition: .5s;
+                            &:hover{
+                                background: #FAA61A;
+                            }
+                        }
+                    }
+                }
+                h4{
+                    position: absolute;
+                    font-size: 22px;
+                    font-weight: 600;
+                    letter-spacing: 0.06em;
+                    margin: 20px 0 20px;
+                    top: -70px;
+                }
+            }
+            input[type="range"] {
+                -webkit-appearance: none;
+                margin-right: 15px;
+                width: 100%;
+                height: 3px;
+                background: rgba(255, 255, 255, 0.6);
+                border-radius: 5px;
+                background-image: linear-gradient(#f9c20a, #f9c20a);
+                background-size: 0% 100%;
+                background-repeat: no-repeat;
+                position: absolute;
+                bottom: 0px;
+            }
+            input[type="range"]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                background: #fff;
+                cursor: ew-resize;
+                box-shadow: 0 0 2px 0 #555;
+                transition: background .3s ease-in-out;
+            }
+        }
+    }
 
     #main-bottom {
         .main-bottom-content {
@@ -609,7 +844,8 @@ main {
                         line-height: 160%;
                         letter-spacing: 0.06em;
                         color: #FFF;
-                        i{
+
+                        i {
                             font-size: 20px !important;
                             color: #F58220;
                         }
@@ -849,6 +1085,7 @@ footer {
     padding: 5px 28px;
     border-radius: 5px;
     border: none;
+    outline: none;
 }
 
 .search-icon-wrapper {

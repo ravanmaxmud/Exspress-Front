@@ -457,6 +457,239 @@ main #tab-menu .tab-menus .tab-menu-cards .tab-card-list .tab-card .card-content
 main #tab-menu .tab-menus .tab-menu-cards .tab-card-list .tab-card .card-content a:hover {
   background-color: #F58220;
 }
+main #calculator {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+main #calculator .calc-button-area .calc-button {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  border-bottom: 1px solid #D7D8D6;
+  padding-top: 28px;
+}
+main #calculator .calc-button-area .calc-button button {
+  position: relative;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 0px;
+  transition: 0.3s;
+  color: #5F6369;
+  margin-right: 48px;
+  letter-spacing: 0.06em;
+  font-size: 18px;
+}
+main #calculator .calc-button-area .calc-button .calc-buttons::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  bottom: 0px;
+  z-index: 999;
+}
+main #calculator .bank-input-area {
+  margin: 50px 0px 20px;
+  background-color: #fff;
+}
+main #calculator .bank-input-area .bank-calc {
+  margin-top: 100px;
+  position: relative;
+  border: 1px solid #ededed;
+  display: flex;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 8px #ededed;
+}
+main #calculator .bank-input-area .bank-calc .all-inp {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin: 40px;
+}
+main #calculator .bank-input-area .bank-calc .all-inp h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #231F20;
+  margin-bottom: 45px;
+  margin-left: 20px;
+}
+main #calculator .bank-input-area .bank-calc .all-inp .inp {
+  margin: 10px;
+  position: relative;
+}
+main #calculator .bank-input-area .bank-calc .all-inp .inp .inptext {
+  width: 150%;
+  border-radius: 15px;
+  border: 1px solid #ededed;
+  padding: 25px 30px;
+}
+main #calculator .bank-input-area .bank-calc .all-inp .inp .linex {
+  position: absolute;
+  width: 87%;
+  left: 10px;
+  bottom: 0px;
+  height: 2px;
+  background-color: #FAA61A;
+}
+main #calculator .bank-input-area .bank-calc .all-inp .inp .select {
+  width: 8%;
+  border: none;
+  position: absolute;
+  top: 35px;
+  right: -120px;
+}
+main #calculator .bank-input-area .bank-calc .all-inp .inp .range {
+  position: absolute;
+  top: 73px;
+  left: 9px;
+  -webkit-appearance: none;
+  outline: none;
+  width: 140%;
+  height: 4px;
+  border-radius: 5px;
+  border: none;
+  background-size: 10%;
+  background-color: #e2e2e2;
+}
+main #calculator .bank-input-area .bank-calc .all-inp .inp .range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #ededed;
+  cursor: pointer;
+}
+main #calculator .bank-input-area .bank-calc .all-inp .inp div {
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #5F6369;
+}
+main #calculator .bank-input-area .bank-calc .all-inp .inp .value, main #calculator .bank-input-area .bank-calc .all-inp .inp .value1, main #calculator .bank-input-area .bank-calc .all-inp .inp .value2 {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  font-size: 20px;
+}
+main #calculator .bank-input-area .bank-calc .all-inp .inp .manat {
+  position: absolute;
+  top: 30px;
+  right: -110px;
+}
+main #calculator .bank-input-area .bank-calc .all-inp .inp .manat::before {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: #F58220;
+}
+main #calculator .bank-input-area .bank-calc .bank-line {
+  margin: 45px 250px;
+  width: 0.1%;
+  height: 100;
+  background-color: #ededed;
+}
+main #calculator .bank-input-area .bank-calc .bank-calc-response {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: -200px;
+}
+main #calculator .bank-input-area .bank-calc .bank-calc-response .bank-response-head h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #231F20;
+  margin-bottom: 45px;
+}
+main #calculator .bank-input-area .bank-calc .bank-calc-response .bank-response-value {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  padding: 0px 150px 0px 0px;
+}
+main #calculator .bank-input-area .bank-calc .bank-calc-response .bank-response-value span {
+  font-size: 20px;
+}
+main #calculator .bank-input-area .bank-calc .bank-calc-response .bank-response-value p {
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.06em;
+  color: #5F6369;
+  display: block;
+}
+main #calculator .bank-input-area .bank-calc .bank-calc-response .bank-response-button {
+  margin-top: 50px;
+  width: 100%;
+}
+main #calculator .bank-input-area .bank-calc .bank-calc-response .bank-response-button a {
+  text-align: center;
+  padding: 15px 0px;
+  display: inline-block;
+  width: 120%;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #231F20;
+  background: #F9C20A;
+  margin: 0;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+main #calculator .bank-input-area .bank-calc .bank-calc-response .bank-response-button a:hover {
+  background: #FAA61A;
+}
+main #calculator .bank-input-area .bank-calc h4 {
+  position: absolute;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  margin: 20px 0 20px;
+  top: -70px;
+}
+main #calculator .bank-input-area input[type=range] {
+  -webkit-appearance: none;
+  margin-right: 15px;
+  width: 100%;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  background-image: linear-gradient(#f9c20a, #f9c20a);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0px;
+}
+main #calculator .bank-input-area input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: ew-resize;
+  box-shadow: 0 0 2px 0 #555;
+  -webkit-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
 main #main-bottom .main-bottom-content {
   position: relative;
 }
@@ -662,6 +895,7 @@ footer .footer-bottom .footer-imgs ul .footer-img-6 img {
   padding: 5px 28px;
   border-radius: 5px;
   border: none;
+  outline: none;
 }
 
 .search-icon-wrapper {
