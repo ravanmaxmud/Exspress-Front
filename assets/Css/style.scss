@@ -417,6 +417,12 @@ header {
 
 }
 
+@media (max-width:576px) {
+    header {
+        display: none;
+    }
+}
+
 
 main {
     #slider {
@@ -571,16 +577,18 @@ main {
         }
     }
 
-    #calculator{
+    #calculator {
         user-select: none;
-        .calc-button-area{
-            .calc-button{
+
+        .calc-button-area {
+            .calc-button {
                 display: flex;
                 overflow: hidden;
                 width: 100%;
                 border-bottom: 1px solid #D7D8D6;
                 padding-top: 28px;
-                button{
+
+                button {
                     position: relative;
                     background-color: inherit;
                     float: left;
@@ -594,7 +602,8 @@ main {
                     letter-spacing: 0.06em;
                     font-size: 18px;
                 }
-                .calc-buttons::before{
+
+                .calc-buttons::before {
                     content: '';
                     position: absolute;
                     width: 100%;
@@ -605,10 +614,12 @@ main {
                 }
             }
         }
-        .bank-input-area{
+
+        .bank-input-area {
             margin: 50px 0px 20px;
-            background-color: #fff ;
-            .bank-calc{
+            background-color: #fff;
+
+            .bank-calc {
                 margin-top: 100px;
                 position: relative;
                 border: 1px solid #ededed;
@@ -616,12 +627,14 @@ main {
                 background-color: #fff;
                 border-radius: 15px;
                 box-shadow: 0 0 20px 8px #ededed;
-                .all-inp{
+
+                .all-inp {
                     display: flex;
                     flex-direction: column;
                     padding-left: 0px;
                     margin: 40px;
-                    h5{
+
+                    h5 {
                         font-style: normal;
                         font-weight: 600;
                         font-size: 22px;
@@ -631,32 +644,36 @@ main {
                         margin-bottom: 45px;
                         margin-left: 20px;
                     }
-                    .inp{
-                        margin: 10px ;
+
+                    .inp {
+                        margin: 10px;
                         position: relative;
-                       
-                         .inptext{
+
+                        .inptext {
                             width: 150%;
                             border-radius: 15px;
                             border: 1px solid #ededed;
                             padding: 25px 30px;
-                         }
-                         .linex{
+                        }
+
+                        .linex {
                             position: absolute;
                             width: 87%;
                             left: 10px;
                             bottom: 0px;
                             height: 2px;
                             background-color: #FAA61A;
-                         }
-                         .select{
+                        }
+
+                        .select {
                             width: 8%;
                             border: none;
                             position: absolute;
                             top: 35px;
                             right: -120px;
-                         }
-                         .range{
+                        }
+
+                        .range {
                             position: absolute;
                             top: 73px;
                             left: 9px;
@@ -668,7 +685,8 @@ main {
                             border: none;
                             background-size: 10%;
                             background-color: #e2e2e2;
-                            &::-webkit-slider-thumb{
+
+                            &::-webkit-slider-thumb {
                                 -webkit-appearance: none;
                                 width: 20px;
                                 height: 20px;
@@ -677,8 +695,9 @@ main {
                                 border: 1px solid #ededed;
                                 cursor: pointer;
                             }
-                         }
-                         div{
+                        }
+
+                        div {
                             position: absolute;
                             top: 10px;
                             left: 35px;
@@ -686,18 +705,23 @@ main {
                             line-height: 24px;
                             letter-spacing: 0.03em;
                             color: #5F6369;
-                         }
-                         .value, .value1, .value2{
+                        }
+
+                        .value,
+                        .value1,
+                        .value2 {
                             position: absolute;
                             top: 35px;
                             left: 35px;
                             font-size: 20px;
                         }
-                         .manat{
+
+                        .manat {
                             position: absolute;
                             top: 30px;
                             right: -110px;
-                            &::before{
+
+                            &::before {
                                 content: '';
                                 position: absolute;
                                 top: 22px;
@@ -706,23 +730,26 @@ main {
                                 height: 1px;
                                 background-color: #F58220;
                             }
-                         }
+                        }
                     }
                 }
-                .bank-line{
+
+                .bank-line {
                     margin: 45px 250px;
                     width: 0.1%;
                     height: 100;
                     background-color: #ededed;
                 }
-                .bank-calc-response{
+
+                .bank-calc-response {
                     margin-top: 45px;
                     display: flex;
                     flex-direction: column;
                     width: 40%;
                     margin-left: -200px;
-                    .bank-response-head{
-                        h5{
+
+                    .bank-response-head {
+                        h5 {
                             font-style: normal;
                             font-weight: 600;
                             font-size: 22px;
@@ -732,15 +759,18 @@ main {
                             margin-bottom: 45px;
                         }
                     }
-                    .bank-response-value{
+
+                    .bank-response-value {
                         display: flex;
                         margin-top: 50px;
                         justify-content: space-between;
                         padding: 0px 150px 0px 0px;
-                        span{
+
+                        span {
                             font-size: 20px;
                         }
-                        p{
+
+                        p {
                             font-size: 16px;
                             line-height: 120%;
                             letter-spacing: 0.06em;
@@ -748,10 +778,12 @@ main {
                             display: block;
                         }
                     }
-                    .bank-response-button{
+
+                    .bank-response-button {
                         margin-top: 50px;
                         width: 100%;
-                        a{
+
+                        a {
                             text-align: center;
                             padding: 15px 0px;
                             display: inline-block;
@@ -766,13 +798,15 @@ main {
                             margin: 0;
                             border-radius: 10px;
                             transition: .5s;
-                            &:hover{
+
+                            &:hover {
                                 background: #FAA61A;
                             }
                         }
                     }
                 }
-                h4{
+
+                h4 {
                     position: absolute;
                     font-size: 22px;
                     font-weight: 600;
@@ -781,6 +815,7 @@ main {
                     top: -70px;
                 }
             }
+
             input[type="range"] {
                 -webkit-appearance: none;
                 margin-right: 15px;
@@ -794,6 +829,7 @@ main {
                 position: absolute;
                 bottom: 0px;
             }
+
             input[type="range"]::-webkit-slider-thumb {
                 -webkit-appearance: none;
                 height: 20px;
@@ -856,6 +892,250 @@ main {
     }
 }
 
+@media screen and (max-width:576px) {
+    #tab-menu {
+        .tab-card-list {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    #calculator {
+        display: block;
+        user-select: none;
+
+        .calc-button-area {
+            overflow-x: scroll;
+
+            .calc-button {
+                width: 150%;
+                display: flex;
+                border-bottom: 1px solid #D7D8D6;
+
+                button {
+                    margin-left: 20px;
+                    position: relative;
+                    background-color: inherit;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    padding: 14px 0px;
+                    transition: 0.3s;
+                    color: #5F6369;
+                    letter-spacing: 0.06em;
+                    font-size: 18px;
+                }
+
+                .calc-buttons-tel::before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    background-color: black;
+                    bottom: 0px;
+                    z-index: 999;
+                }
+            }
+        }
+
+        .bank-input-area {
+            width: 100%;
+            margin: 20px 0px;
+            background-color: #fff;
+
+            h4 {
+                font-family: P-Nova;
+                font-size: 22px;
+                font-weight: 600;
+                letter-spacing: 0.06em;
+                margin: 20px 20px;
+            }
+
+            .bank-calc {
+                border: 1px solid #ededed;
+                display: flex;
+                flex-direction: column;
+                background-color: #fff;
+                border-radius: 15px;
+                box-shadow: 0 0 20px 8px #ededed;
+
+                .all-inp {
+                    display: flex;
+                    flex-direction: column;
+                    width: 68%;
+
+                    h5 {
+                        font-family: P-Nova;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 22px;
+                        letter-spacing: 0.06em;
+                        color: #231F20;
+                        margin-bottom: 45px;
+                        margin-left: 20px;
+                        margin-top: 20px;
+                    }
+
+                    .inp {
+                        margin: 10px;
+                        position: relative;
+
+                        .inptext {
+                            width: 150%;
+                            border-radius: 15px;
+                            border: 1px solid #ededed;
+                            padding: 25px 30px;
+                        }
+
+                        .linex {
+                            position: absolute;
+                            width: 87%;
+                            left: 10px;
+                            bottom: 0px;
+                            height: 2px;
+                            background-color: #FAA61A;
+                        }
+
+                        .select {
+                            width: 8%;
+                            border: none;
+                            position: absolute;
+                            top: 35px;
+                            right: -120px;
+                        }
+
+                        .range {
+                            position: absolute;
+                            top: 73px;
+                            left: 9px;
+                            -webkit-appearance: none;
+                            outline: none;
+                            width: 140%;
+                            height: 4px;
+                            border-radius: 5px;
+                            border: none;
+                            background-color: #e2e2e2;
+
+                            &::-webkit-slider-thumb {
+                                -webkit-appearance: none;
+                                width: 20px;
+                                height: 20px;
+                                border-radius: 50%;
+                                background-color: #fff;
+                                border: 1px solid #ededed;
+                                cursor: pointer;
+                            }
+                        }
+
+                        div {
+                            position: absolute;
+                            top: 10px;
+                            left: 35px;
+                            font-family: P-Nova;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: 0.03em;
+                            color: #5F6369;
+                        }
+
+                        .value,
+                        .value1,
+                        .value2 {
+                            position: absolute;
+                            top: 35px;
+                            left: 35px;
+                            font-family: P-Nova;
+                            font-size: 20px;
+                        }
+
+                        .manat {
+                            position: absolute;
+                            top: 30px;
+                            right: -110px;
+
+                            &::before {
+                                content: '';
+                                position: absolute;
+                                top: 22px;
+                                left: 0px;
+                                width: 100%;
+                                height: 1px;
+                                background-color: #F58220;
+                            }
+                        }
+                    }
+                }
+
+                .bank-calc-response {
+                    margin-left: 20px;
+                    margin-top: 45px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .bank-response-head {
+                        h5 {
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 22px;
+                            line-height: 22px;
+                            letter-spacing: 0.06em;
+                            color: #231F20;
+                            margin-bottom: 45px;
+                        }
+                    }
+
+                    .bank-response-value {
+                        display: flex;
+                        margin-top: 50px;
+
+                        span {
+                            font-size: 20px;
+                        }
+
+                        p {
+                            margin-right: 20px;
+                            font-family: P-Nova;
+                            font-size: 16px;
+                            line-height: 120%;
+                            letter-spacing: 0.06em;
+                            color: #5F6369;
+                            display: block;
+                        }
+                    }
+
+                    .bank-show-go {
+                        margin-top: 50px;
+                        width: 80%;
+
+                        a {
+                            font-family: P-Nova;
+                            text-align: center;
+                            padding: 15px 0px;
+                            display: inline-block;
+                            width: 120%;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 16px;
+                            letter-spacing: 0.12em;
+                            text-transform: uppercase;
+                            color: #231F20;
+                            background: #F9C20A;
+                            margin: 0;
+                            border-radius: 10px;
+                            transition: .5s;
+
+                            &:hover {
+                                background: #FAA61A;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
 
 
 

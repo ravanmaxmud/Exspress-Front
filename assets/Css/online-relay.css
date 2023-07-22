@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6fa;
+}
+
+header {
+  padding: 0px 190px;
+}
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-content .head-txt h1 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+main {
+  padding: 0px 190px;
+}
+main .main-content .choose-relay {
+  border-bottom: 1px solid #e4e4e8;
+  display: flex;
+}
+main .main-content .choose-relay div {
+  padding: 2.5rem 2.5rem 0.5rem 0rem;
+}
+main .main-content .choose-relay div h1 {
+  color: #a4a4a4;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+main .main-content .choose-relay .active-relay h1 {
+  position: relative;
+  color: #ffc533;
+}
+main .main-content .choose-relay .active-relay h1::after {
+  content: "";
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #ffc533;
+}
+main .main-content .search-relay {
+  display: flex;
+  margin: 15px 0px;
+}
+main .main-content .search-relay .search-input {
+  width: 75%;
+  position: relative;
+}
+main .main-content .search-relay .search-input input {
+  outline: none;
+  border: 1px solid #ededed;
+  border-radius: 3px;
+  padding: 10px 0px 10px 35px;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #5f6369;
+}
+main .main-content .search-relay .search-input i {
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  color: #5F6369;
+  font-size: 13px;
+}
+main .main-content .search-relay .search-nav {
+  display: flex;
+  margin-top: 2px;
+  margin-left: 25px;
+  width: 25%;
+}
+main .main-content .search-relay .search-nav button {
+  margin-left: 5px;
+  padding: 9px;
+  width: 50%;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+main .main-content .search-relay .search-nav button:hover {
+  background-color: #5f6369;
+  color: white;
+}
+main .main-content .search-relay .search-nav .btn-active {
+  color: #fff;
+  background-color: #5f6369;
+}
+main .main-content .relay-card {
+  margin-top: 20px;
+  width: 100%;
+  padding: 1rem 0rem 1rem;
+  border: 1px solid #d3d2d2;
+  border-radius: 5px;
+  background-color: #fff;
+}
+main .main-content .relay-card .card-city {
+  border-bottom: 1px solid #ededed;
+}
+main .main-content .relay-card .card-city h3 {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+main .main-content .relay-card .card-map {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ededed;
+  padding: 5px 10px 10px 5px;
+}
+main .main-content .relay-card .card-map a {
+  display: inline-block;
+  position: relative;
+  width: 32%;
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: -1.5px 2px 5px 0px #d1cece;
+}
+main .main-content .relay-card .card-map a i {
+  transform: rotate(45deg);
+  color: #000;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 22px;
+}
+main .main-content .relay-card .card-map a span {
+  margin-top: 10px;
+  font-size: 12px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  color: #000;
+}
+main .main-content .relay-card .card-adress {
+  padding: 1rem 0 0rem;
+  margin: 0 1.5rem;
+  border-bottom: 1px solid #ededed;
+}
+main .main-content .relay-card .card-adress p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #5f6369;
+}
+main .main-content .relay-card .card-time {
+  padding: 1rem 0 0rem;
+  margin: 0 1.5rem;
+}
+main .main-content .relay-card .card-time p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #5f6369;
+}
+main .main-content .relay-card .card-button {
+  padding: 1rem 1rem 0rem 1rem;
+}
+main .main-content .relay-card .card-button button {
+  border: none;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 0.4rem;
+  text-align: center;
+  background-color: #ffc533;
+  color: #000;
+  transition: 0.3s;
+}
+main .main-content .relay-card .card-button button:hover {
+  background-color: #241d46;
+  color: #fff;
+}/*# sourceMappingURL=online-relay.css.map */
