@@ -1,27 +1,28 @@
 .expbasket-main {
   -webkit-user-select: none;
      -moz-user-select: none;
+      -ms-user-select: none;
           user-select: none;
 }
-.expbasket-main .tupoy {
+.expbasket-main .whichstatement {
   margin: -200px auto 150px;
   text-align: center;
 }
-.expbasket-main .tupoy i {
+.expbasket-main .whichstatement i {
   cursor: pointer;
   font-size: 80px;
   display: inline-block;
   margin: 160px 0 20px;
   color: #000;
 }
-.expbasket-main .tupoy i:hover {
+.expbasket-main .whichstatement i:hover {
   color: orange;
 }
 
-.miris {
+.placedrop {
   margin-bottom: 100px;
 }
-.miris .tab-card-all .tab-card {
+.placedrop .tab-card-all .tab-card {
   padding: 0px 0px 20px;
   position: relative;
   border-radius: 8px;
@@ -29,23 +30,23 @@
   border: 1px solid #ededed;
   box-shadow: 6px 5px 10px 1px #ededed;
 }
-.miris .tab-card-all .tab-card .card-photo {
+.placedrop .tab-card-all .tab-card .card-photo {
   width: 70%;
   background: transparent;
   display: block;
   text-align: center;
   margin: -12px auto -12px;
 }
-.miris .tab-card-all .tab-card .card-photo img {
+.placedrop .tab-card-all .tab-card .card-photo img {
   width: 100%;
   display: inline-block;
 }
-.miris .tab-card-all .tab-card .card-content {
+.placedrop .tab-card-all .tab-card .card-content {
   text-align: center;
   width: 100%;
   font-family: P-Nova;
 }
-.miris .tab-card-all .tab-card .card-content h4 {
+.placedrop .tab-card-all .tab-card .card-content h4 {
   font-size: 15px;
   line-height: 16px;
   letter-spacing: 0.12em;
@@ -56,7 +57,7 @@
   border-radius: 4px;
   display: inline-block;
 }
-.miris .tab-card-all .tab-card .card-content p {
+.placedrop .tab-card-all .tab-card .card-content p {
   padding: 0 24px;
   height: 50px;
   line-height: 120%;
@@ -64,7 +65,7 @@
   font-size: 16px;
   letter-spacing: 0.06em;
 }
-.miris .tab-card-all .tab-card .card-content a {
+.placedrop .tab-card-all .tab-card .card-content a {
   display: block;
   border-radius: 8px;
   margin: 20px 24px 0px;
@@ -78,10 +79,10 @@
   background-color: #f5f5f5;
   color: #231F20;
 }
-.miris .tab-card-all .tab-card .card-content a:hover {
+.placedrop .tab-card-all .tab-card .card-content a:hover {
   background-color: #F58220;
 }
-.miris .tab-card-all .tab-card .card-content i {
+.placedrop .tab-card-all .tab-card .card-content i {
   cursor: pointer;
   position: absolute;
   top: 15px;
@@ -89,6 +90,6 @@
   font-size: 30px;
   transition: 0.2s;
 }
-.miris .tab-card-all .tab-card .card-content i:hover {
+.placedrop .tab-card-all .tab-card .card-content i:hover {
   color: #F58220;
 }/*# sourceMappingURL=exspress-basket.css.map */

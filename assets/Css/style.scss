@@ -1107,3 +1107,23 @@ footer {
     border: none;
     cursor: pointer;
 }
+#toaster{
+    position: fixed;
+    bottom: 20px;
+    left: 45%;
+    opacity: 0;
+    transition: 0.5s;
+    span{
+        border-radius: 40px;
+    }
+}
+#toaster2{
+    position: fixed;
+    bottom: 20px;
+    left: 45%;
+    opacity: 0;
+    transition: 0.5s;
+    span{
+        border-radius: 40px;
+    }
+}
